@@ -2,7 +2,7 @@ package dp;
 
 import java.util.Arrays;
 //find max steal with alternate houses
-public class Practice1 {
+public class MaxSteal {
     public static void main(String[] args) {
         int A[] = new int[]{2,7,8,10};
         int len = A.length;

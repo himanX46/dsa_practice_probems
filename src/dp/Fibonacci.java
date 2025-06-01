@@ -3,7 +3,7 @@ package dp;
 import java.util.Arrays;
 
 //0,1,1,2,3,5,8,13,21
-public class Practice2 {
+public class Fibonacci {
     public static void main(String[] args) {
         int n = 9;
         int ans[] = new int[n+1];

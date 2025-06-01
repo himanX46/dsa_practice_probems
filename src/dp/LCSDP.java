@@ -2,7 +2,7 @@ package dp;
 
 import java.util.Arrays;
 //LCS dp
-public class Practice5 {
+public class LCSDP {
     public static void main(String[] args) {
         String s1 = "AGGTAB";
         String s2 = "GXTXAYB";
