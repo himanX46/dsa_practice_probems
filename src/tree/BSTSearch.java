@@ -34,6 +34,6 @@ public class BSTSearch {
         root.left.right = new Node(40);
         root.right.left = new Node(60);
         root.right.right = new Node(80);
-        System.out.println(search(root,20));
+        System.out.println(search(root,40));
     }
 }
