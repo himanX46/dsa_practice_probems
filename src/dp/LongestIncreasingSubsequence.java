@@ -22,6 +22,10 @@ public class LongestIncreasingSubsequence {
     }
 
     static int findMax(int[] lis){
-        return Arrays.stream(lis).max().getAsInt();
+        int max = Integer.MIN_VALUE;
+        for(int i=0;i<lis.length;i++){
+            max = Math.max(lis[i],max);
+        }
+        return max;
     }
 }
