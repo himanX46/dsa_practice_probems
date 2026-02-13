@@ -24,16 +24,6 @@ public class BFS {
                     queue.add(x);
                 }
             }
-           /* for(List<Integer> lst: adj){
-                    if(lst.contains(p)){
-                        for(int x : lst){
-                            if(!visited[x]){
-                                visited[x] = true;
-                                queue.add(x);
-                            }
-                        }
-                    }
-            }*/
         }
         for(int i=0;i<visited.length;i++){
             if(visited[i]){

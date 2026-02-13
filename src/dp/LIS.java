@@ -11,7 +11,6 @@ public class LIS {
     }
     private static int lis(int[] arr, int n){
         int[] lis = new int[n];
-        int max=0;
         Arrays.fill(lis,1);
         for(int i=1;i<n;i++){
             for(int j=0;j<i;j++){
