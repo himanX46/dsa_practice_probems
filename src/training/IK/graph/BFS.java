@@ -17,6 +17,7 @@ public class BFS {
         edges.add(edge2);
         edges.add(edge3);
         edges.add(edge4);
+        System.out.println("edges:: "+edges);
         System.out.println(bfs_traversal(n,edges));
     }
     static ArrayList<Integer> bfs_traversal(int n, ArrayList<ArrayList<Integer>> edges){
@@ -32,6 +33,7 @@ public class BFS {
             adj_list.get(u).add(v);
             adj_list.get(v).add(u);
         }
+        System.out.println("adj_list:: "+adj_list);
         for(int i=0;i<n;i++){
             if(!isVisited[i]){
                 bfs_traversalhelper(i,adj_list,result,isVisited);

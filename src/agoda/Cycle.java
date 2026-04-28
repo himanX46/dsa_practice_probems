@@ -1,6 +1,7 @@
 package agoda;
 
 public class Cycle {
+    //Number of Child in the Circle
     public static void main(String[] args) {
         System.out.println(numberOfChild(3,5));
     }
